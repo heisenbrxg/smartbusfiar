@@ -1,0 +1,31 @@
+# Dependencies - NEVER commit these
+node_modules/
+**/node_modules/
+
+# Vite dev cache
+.vite/
+**/.vite/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
